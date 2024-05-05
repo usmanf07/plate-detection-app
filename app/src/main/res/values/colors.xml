@@ -4,6 +4,7 @@
     <color name="bg">#2C2B34</color>
     <color name="primary">#282931</color>
     <color name="secondary">#F3F3F3</color>
+    <color name="tertiary">#D6D6D6</color>
 
     <color name="btnMain">#000000</color>
     <color name="btnPrimary">#14d49c</color>
@@ -15,5 +16,6 @@
 
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="textColorSecondary">#AAAAAA</color>
+    <color name="textColorMain">#000000</color>
 
 </resources>
