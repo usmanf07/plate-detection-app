@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">smdproject</string>
+    <string name="app_name">AI Number Plate Detection</string>
+    <string name="welcome_title">AI Based: Number Plate Detection</string>
+    <string name="welcome_sub_title">Revolutionizing Recognition! Our App Utilizes Cutting-Edge AI for Seamless Number Plate Detection</string>
 </resources>
