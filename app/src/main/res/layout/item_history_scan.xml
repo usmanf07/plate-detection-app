@@ -1,6 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- item_history_scan.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_background"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:layout_marginBottom="12dp"
+    android:padding="16dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Date TextView -->
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorMain"
+        android:text="12-01-2021"
+        android:textSize="20sp"
+        android:gravity="center_vertical"/>
+
+    <!-- Image (ImageView) -->
+    <ImageView
+        android:id="@+id/imageViewCar"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/carplate"
+        android:layout_marginStart="16dp"
+        android:scaleType="fitCenter"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/textViewCarName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorSecondary"
+            android:text="Car Name"
+            android:textSize="18sp"/>
+
+        <!-- Car Plate Number TextView -->
+        <TextView
+            android:id="@+id/textViewPlateNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorMain"
+            android:text="LEB 5700"
+            android:textSize="26sp"/>
+
+        <!-- Horizontal LinearLayout for Owner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Owner Image -->
+            <ImageView
+                android:id="@+id/imageViewOwner"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/owner"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Owner Name TextView -->
+            <TextView
+                android:id="@+id/textViewOwnerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorSecondary"
+                android:text="Owner Name"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
